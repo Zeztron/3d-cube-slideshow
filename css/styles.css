@@ -111,6 +111,8 @@
       transition: background-color .3s; }
       .container .viewport .control:hover {
         background-color: rgba(42, 38, 36, 0.8); }
+      .container .viewport .control i {
+        pointer-events: none; }
     .container .viewport .left-arrow {
       top: 50%;
       left: -35%; }

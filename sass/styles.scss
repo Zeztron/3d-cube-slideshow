@@ -125,7 +125,7 @@
 
         .cube-3 {
             transition: transform .4s .4s;
-            
+
             .front {
                 background: url(../images/slide-img-1.jpg) no-repeat 50% -14vw;
                 background-size: cover;
@@ -166,6 +166,10 @@
 
             &:hover {
                 background-color: rgba(42, 38, 36, .8);
+            }
+
+            i {
+                pointer-events: none;
             }
         }
 
