@@ -74,11 +74,9 @@
             }
         }
 
-        .cube-2 {
-            z-index: 10;
-        }
-
         .cube-1 {
+            transition: transform .4s;
+
             .front {
                 background: url(../images/slide-img-1.jpg) no-repeat 50% 0;
                 background-size: cover;
@@ -101,6 +99,9 @@
         }
 
         .cube-2 {
+            transition: transform .4s .2s;
+            z-index: 10;
+
             .front {
                 background: url(../images/slide-img-1.jpg) no-repeat 50% -7vw;
                 background-size: cover;
@@ -123,6 +124,8 @@
         }
 
         .cube-3 {
+            transition: transform .4s .4s;
+            
             .front {
                 background: url(../images/slide-img-1.jpg) no-repeat 50% -14vw;
                 background-size: cover;
