@@ -27,7 +27,6 @@
         height: 100%;
         background-color: red;
         position: absolute;
-        opacity: .7;
         font-size: 5rem;
         color: #fff; }
       .container .viewport .cube .front {
@@ -46,3 +45,41 @@
         height: 42vw;
         background-color: #111;
         transform: translateY(-14vw) rotateX(-90deg); }
+    .container .viewport .cube-2 {
+      z-index: 10; }
+    .container .viewport .cube-1 .front {
+      background: url(../images/slide-img-1.jpg) no-repeat 50% 0;
+      background-size: cover; }
+    .container .viewport .cube-1 .back {
+      background: url(../images/slide-img-2.jpg) no-repeat 50% 0;
+      background-size: cover; }
+    .container .viewport .cube-1 .left {
+      background: url(../images/slide-img-3.jpg) no-repeat 50% 0;
+      background-size: cover; }
+    .container .viewport .cube-1 .right {
+      background: url(../images/slide-img-4.jpg) no-repeat 50% 0;
+      background-size: cover; }
+    .container .viewport .cube-2 .front {
+      background: url(../images/slide-img-1.jpg) no-repeat 50% -7vw;
+      background-size: cover; }
+    .container .viewport .cube-2 .back {
+      background: url(../images/slide-img-2.jpg) no-repeat 50% -7vw;
+      background-size: cover; }
+    .container .viewport .cube-2 .left {
+      background: url(../images/slide-img-3.jpg) no-repeat 50% -7vw;
+      background-size: cover; }
+    .container .viewport .cube-2 .right {
+      background: url(../images/slide-img-4.jpg) no-repeat 50% -7vw;
+      background-size: cover; }
+    .container .viewport .cube-3 .front {
+      background: url(../images/slide-img-1.jpg) no-repeat 50% -14vw;
+      background-size: cover; }
+    .container .viewport .cube-3 .back {
+      background: url(../images/slide-img-2.jpg) no-repeat 50% -14vw;
+      background-size: cover; }
+    .container .viewport .cube-3 .left {
+      background: url(../images/slide-img-3.jpg) no-repeat 50% -14vw;
+      background-size: cover; }
+    .container .viewport .cube-3 .right {
+      background: url(../images/slide-img-4.jpg) no-repeat 50% -14vw;
+      background-size: cover; }

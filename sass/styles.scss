@@ -25,13 +25,13 @@
             background-color: #ccc;
             transform-style: preserve-3d;
             position: relative;
+            // transform: rotateY(-90deg);
 
             .face {
                 width: 100%;
                 height: 100%;
                 background-color: red;
                 position: absolute;
-                opacity: .7;
                 font-size: 5rem;
                 color: #fff;
             }
@@ -63,6 +63,77 @@
                 background-color: #111;
                 transform: translateY(-14vw) rotateX(-90deg);
             }
+        }
+
+        .cube-2 {
+            z-index: 10;
+        }
+
+        .cube-1 {
+            .front {
+                background: url(../images/slide-img-1.jpg) no-repeat 50% 0;
+                background-size: cover;
+            }
+
+            .back {
+                background: url(../images/slide-img-2.jpg) no-repeat 50% 0;
+                background-size: cover;
+            }
+
+            .left {
+                background: url(../images/slide-img-3.jpg) no-repeat 50% 0;
+                background-size: cover;
+            }
+
+            .right {
+                background: url(../images/slide-img-4.jpg) no-repeat 50% 0;
+                background-size: cover;
+            }
+        }
+
+        .cube-2 {
+            .front {
+                background: url(../images/slide-img-1.jpg) no-repeat 50% -7vw;
+                background-size: cover;
+            }
+
+            .back {
+                background: url(../images/slide-img-2.jpg) no-repeat 50% -7vw;
+                background-size: cover;
+            }
+
+            .left {
+                background: url(../images/slide-img-3.jpg) no-repeat 50% -7vw;
+                background-size: cover;
+            }
+
+            .right {
+                background: url(../images/slide-img-4.jpg) no-repeat 50% -7vw;
+                background-size: cover;
+            }
+        }
+
+        .cube-3 {
+            .front {
+                background: url(../images/slide-img-1.jpg) no-repeat 50% -14vw;
+                background-size: cover;
+            }
+
+            .back {
+                background: url(../images/slide-img-2.jpg) no-repeat 50% -14vw;
+                background-size: cover;
+            }
+
+            .left {
+                background: url(../images/slide-img-3.jpg) no-repeat 50% -14vw;
+                background-size: cover;
+            }
+
+            .right {
+                background: url(../images/slide-img-4.jpg) no-repeat 50% -14vw;
+                background-size: cover;
+            }
+
         }
     }
 }
